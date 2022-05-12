@@ -2,7 +2,7 @@ import { createContext, useReducer } from 'react'
 import { backGoundChangeReducer } from './reducers'
 
 const INITAIL_STATE = {
-  backgroundColor: 'red',
+  backgroundColor: '#d95550',
 }
 
 export const MyContext = createContext(INITAIL_STATE)

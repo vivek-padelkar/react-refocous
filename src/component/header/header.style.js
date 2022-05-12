@@ -32,7 +32,7 @@ export const Menucontainer = styled.div`
   display: flex;
   gap: 10px;
   button {
-    background-color: #e07470;
+   background-color: rgba(0, 0, 0, 0.2);
     color: white;
     border: none;
     width: 80px;

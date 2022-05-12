@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { BackgroundColor2 } from '../../constants/constatntStyle'
 
 export const Container = styled.div`
-  background-color: ${BackgroundColor2};
+ background-color: rgba(0, 0, 0, 0.2);
   color: white;
   max-width: 40%;
   margin-top: 50px;
@@ -32,3 +32,4 @@ export const Actionbutton = styled.button`
   padding: 10px;
   cursor: pointer;
 `
+export const TimerWrapper = styled.div``
