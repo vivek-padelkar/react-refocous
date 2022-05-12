@@ -1,7 +1,10 @@
 import { Container } from './main.style'
-
+import { useContext } from 'react'
+import { MyContext } from '../../context/store'
 const MainContainer = ({ children }) => {
-  return <Container>{children}</Container>
+  const { backgroundColor } = useContext(MyContext)
+
+  return <Container style={backgroundColor}>{children}</Container>
 }
 
 export default MainContainer
